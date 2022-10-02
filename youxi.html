@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/reset.css">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
+    <title>猜单词游戏</title>
+</head>
+
+<body>
+    <main class="container-first">
+        <section class="co1">
+            <div class="container-i1">
+                <div id="it1"></div>
+                <img src="./image/tradicional.png" alt="tradicional" class="tradicional">
+            </div>
+
+            <div class="container-i2">
+                <div id="it2"></div>
+                <button class="b-new" onclick="newGame()">新游戏</button>
+                <a href="./index.html"><button class="b-desist">结束</button></a>
+            </div>
+        </section>
+
+        <section class="co2">
+            <div class="container-i3">
+                <div id="it3"></div>
+                <div class="town">
+                    <img src="./image/chinatown.png" alt="chinatown" id="chinatown">
+                    <img alt="sunwukong" id="sunwukong-game">
+                </div>
+            </div>
+
+            <div class="container-i4">
+                <div id="it4"></div>
+                <div class="container-correct"></div>
+            </div>
+        </section>
+
+        <section class="co3">
+            <div class="container-i5">
+                <div id="it5"></div>
+                <img src="./image/chinese.png" alt="chinese" class="chinese">
+            </div>
+
+            <div class="container-i6">
+                <div id="it6"></div>
+                <p id="text1">错误的字母</p>
+                <div class="container-incorrect"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+    <footer>
+        <div class="footer-container">
+            <P>&copy; 2022 | 周彧嘉制作</P>
+        </div>
+    </footer>
+</body>
+
+</html>

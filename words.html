@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/reset.css">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
+    <title>猜单词游戏</title>
+</head>
+<body>
+    <header>
+        <h1 class="title2" style="font-size:5.9vw;">猜单词游戏</h1>    
+    </header>
+    
+    <main class="main-words">
+        <div class="container-b1">
+            <div class="square-1" id="square-1"></div>
+            <img src="./image/linterna.png" alt="b-linterna" class="b-linterna">
+        </div>
+        
+        <div class="container-b1">
+            <div class="square-2"></div>
+            <p>&#x1F6C8; Máx. de 8 letras sin acentos ni caracteres especiales</p>
+            <textarea name="" id="input-text" class="input-text" cols="30" rows="10" placeholder="输入一个词" maxlength="8"></textarea>
+            <button class="b-save" id="b-save" onclick="add_word()">Save</button>
+            <a href="./index.html"><button class="b-cancel">取消</button></a>
+            <div class="container-bk">
+                <a href="./youxi.html" id="link_characters"><button class="b-start">开始</button></a>    
+            </div>   
+        </div>
+
+        <div class="container-b1">
+            <div class="square-3"></div>
+            <img src="./image/ventilador.png" alt="b-ventilador" class="b-ventilador">     
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+    <footer>
+        <div class="footer-container">
+            <P>&copy; 2022 | 周彧嘉制作</P>
+        </div>
+    </footer>
+</body>
+</html>
